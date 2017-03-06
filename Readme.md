@@ -3,8 +3,17 @@ Running the simulator
 
 Required PHP v7.0+
 
-From the command line, use start.php to see a simulation
+Setting up
+----------
 
+    $ composer install
+    $ composer dumpautoload # not required, but recommended
+
+Running
+--------
+ use start.php to see a simulation
+
+    $ cd $PROJECT_ROOT_DIRECTORY
     $ php start.php
 
 Defining a new Skill
